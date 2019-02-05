@@ -2,7 +2,7 @@
 var bodyParser = require("body-parser");
 var urlencodedParser = bodyParser.urlencoded({extended:false});
 var mongoose =require("mongoose");
-mongoose.connect('mongodb://tinsoft:Hidemyass2@ds030500.mlab.com:30500/tinstore');
+mongoose.connect('process.env.MONGOLAB_URI');
 var bankSchema = new mongoose.Schema({
     storename:String,
     storeid:String,
