@@ -18,6 +18,6 @@ productsViewModel(app);
 imageViewModel(app);
 
 //set port
-app.listen(5000,function(){
+app.listen(8080,function(){
 console.log("now listening on port 5000");
 });
