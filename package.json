@@ -1,0 +1,18 @@
+{
+  "name" : "tinstore",
+  "version" : "0.1.0",
+  "main" : "server.js",
+  "scripts" : {
+    "start" : "node server.js"
+  },
+  "engines": {
+    "node": "^10"
+  },
+  "dependencies": {
+    "express": "4.16.4",
+    "body-parser": "1.18.3",
+    "mongoose": "5.4.9",
+    "socket.io": "0.9.x",
+    "underscore": "1.4.3"
+  }
+}
