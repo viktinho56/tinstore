@@ -1,18 +1,27 @@
 {
-  "name" : "tinstore",
-  "version" : "0.1.0",
-  "main" : "server.js",
-  "scripts" : {
-    "start" : "node server.js"
-  },
-  "engines": {
-    "node": "^10"
-  },
+  "name": "tinstore",
+  "version": "1.0.0",
+  "description": "store app",
+  "main": "server.js",
   "dependencies": {
-    "express": "4.16.4",
-    "body-parser": "1.18.3",
-    "mongoose": "5.4.9",
-    "socket.io": "0.9.x",
-    "underscore": "1.4.3"
-  }
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viktinho56/tinstore.git"
+  },
+  "author": "tinsoft",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/viktinho56/tinstore/issues"
+  },
+  "homepage": "https://github.com/viktinho56/tinstore#readme"
 }
