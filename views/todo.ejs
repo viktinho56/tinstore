@@ -1,0 +1,25 @@
+
+<% include ./header/index-header.ejs %>
+
+<% include ./navigation/top-nav.ejs %>
+<br/>
+<br/>
+<center>  <form method="POST" action="/todo">
+    <label>What is your name</label>
+    <input type="text" id="post" name="item"/>
+   <button type="submit">Add item</button>
+</form>
+<div id="results">
+<ul>
+    <% for(var i=0; i< todos.length;i++){ %>
+<li><%= todos[i].item %></li><br/>
+  <%  } %>
+</ul>
+</div>
+</center>
+
+
+
+
+
+<% include ./footer/index-footer.ejs %>
