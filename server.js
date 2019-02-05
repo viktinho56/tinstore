@@ -9,13 +9,13 @@ app.set("view engine","ejs");
 
 //static files
 app.use(express.static('./public'));
-
+app.render("Hello");
 //fire viewmodel
 
-storeViewModel(app);
-bankViewModel(app);
-productsViewModel(app);
-imageViewModel(app);
+//storeViewModel(app);
+//bankViewModel(app);
+//productsViewModel(app);
+//imageViewModel(app);
 
 //set port
 app.listen(8080,function(){
