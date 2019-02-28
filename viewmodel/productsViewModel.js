@@ -36,7 +36,7 @@ module.exports = function (app) {
             if (err) throw err;
             res.send({product:data});
             console.log({product:data});
-        })
+        }).sort({name:-1})
     
     }); 
 //show a single product /search for products
